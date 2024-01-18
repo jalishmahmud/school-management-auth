@@ -1,0 +1,6 @@
+{
+  "deitor.codeActionsOnSave": {
+    "source.fixAll.esList": true,
+    "source.organizeImports": true
+  }
+}
