@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/sbh/Desktop/jalish/school-management-auth/logs/winston/errors/.3a08af30076a2675409154907a9f05cadb14dc95-audit.json",
+    "files": [
+        {
+            "date": 1705644243664,
+            "name": "/Users/sbh/Desktop/jalish/school-management-auth/logs/winston/errors/sm-2024-01-19-12-error.log",
+            "hash": "baa9e6a39a178eaf427793cc6048a78fc621fd6b33c90eaf06618876a3438ce3"
+        }
+    ],
+    "hashType": "sha256"
+}
