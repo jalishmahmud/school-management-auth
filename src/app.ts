@@ -15,11 +15,11 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/api/v1/users/', UserRoutes)
 
 // testing
-// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
-// res.send('Working well!')
-// throw new ApiError(400, "Error Happen---")
-// throw new Error('Error Happen---')
-// next("error from next function")
+// app.get('/', (req: Request, res: Response, next: NextFunction) => {
+//     res.send('Working well!')
+//     throw new ApiError(400, "Error Happen---")
+//     throw new Error('Error Happen---')
+//     next("error from next function")
 // })
 
 // global error handler
