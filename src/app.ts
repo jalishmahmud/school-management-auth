@@ -16,10 +16,7 @@ app.use('/api/v1/users/', UserRoutes)
 
 // testing
 // app.get('/', (req: Request, res: Response, next: NextFunction) => {
-//     res.send('Working well!')
-//     throw new ApiError(400, "Error Happen---")
-//     throw new Error('Error Happen---')
-//     next("error from next function")
+//     throw new Error("Testing error logger")
 // })
 
 // global error handler
