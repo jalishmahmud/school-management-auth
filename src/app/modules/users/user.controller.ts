@@ -10,13 +10,13 @@ const createUser = catchAsync(
 
     const result = await UserService.createUser(user)
 
-    next()
     sendResponse(res, {
       statusCode: httpStatus.OK,
       success: true,
       message: 'User created successfully',
       data: result,
     })
+    next()
   },
 )
 
